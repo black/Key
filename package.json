@@ -1,0 +1,26 @@
+{
+  "name": "key",
+  "version": "1.0.0",
+  "description": "Local password manager",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/black/Key.git"
+  },
+  "author": "black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/black/Key/issues"
+  },
+  "homepage": "https://github.com/black/Key#readme"
+}
