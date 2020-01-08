@@ -5,7 +5,7 @@ const express = require('express'),
 app.use(express.static('public'));
 
 let server = app.listen(1020, () => {
-    console.log("Dewi Booking Runing on 1020");
+    console.log("Password Manager 1020");
 });
 
 // set up view engine
@@ -20,6 +20,6 @@ app.get('/getPassowrd', (req, res) => {
 });
 
 app.post('/storePassword', (req, res) => {
-    console.log("form data", req.body.username);
+    console.log("Password", req.body);
     res.send(req.body);
 });
